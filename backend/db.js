@@ -4,7 +4,7 @@ const mongoURI = "mongodb://localhost:27017/cloudnotebook";
 
 const connectToMongo = () => {
     mongoose.connect(mongoURI, () => {
-        console.log("connected to mongoose successfully");
+        console.log("connected to Mongo successfully");
     })
 }
 
